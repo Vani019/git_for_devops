@@ -1,0 +1,54 @@
+# Git and Command Line Commands
+
+This document provides an overview of common Git and command line commands used in a typical development workflow.
+
+## Commands Overview
+
+### Directory and File Management
+
+- **`ls`**: Lists files and directories in the current directory.
+- **`pwd`**: Prints the current working directory path.
+- **`mkdir git_for_devops`**: Creates a new directory named `git_for_devops`.
+- **`cd git_for_devops`**: Changes the current directory to `git_for_devops`.
+- **`touch nibba.txt nibbi.txt`**: Creates two new empty files named `nibba.txt` and `nibbi.txt`.
+- **`rm hello-dosto.txt`**: Removes the file `hello-dosto.txt`.
+
+### Git Initialization and Status
+
+- **`git init`**: Initializes a new Git repository in the current directory.
+- **`git status`**: Shows the current status of the repository, including staged and unstaged changes.
+- **`git log`**: Displays the commit history of the repository.
+- **`git log --oneline`**: Shows the commit history in a concise format, displaying one line per commit.
+
+### File Tracking and Changes
+
+- **`git add .`**: Stages all changes in the current directory for the next commit.
+- **`git rm --cache hello-dosto.txt`**: Removes `hello-dosto.txt` from the staging area without deleting the file from the working directory.
+- **`git restore hello-dosto.txt`**: Restores `hello-dosto.txt` to its last committed state.
+
+### Committing Changes
+
+- **`git commit -m "message"`**: Commits the staged changes with a descriptive message.
+- **`commit -m "message"`**: This is incorrect and should be `git commit -m "message"`.
+
+### Branching and Merging
+
+- **`git branch`**: Lists all branches in the repository.
+- **`git checkout -b dev`**: Creates a new branch named `dev` and switches to it.
+- **`git checkout master`**: Switches back to the `master` branch.
+- **`git checkout dev`**: Switches to the `dev` branch.
+
+### Configuration
+
+- **`git config --global user.name "Vani019"`**: Sets the global username for commits.
+- **`git config --global user.email "shivani019singh@gmail.com"`**: Sets the global email for commits.
+
+### Additional Commands
+
+- **`vim filename.txt`**: Opens `filename.txt` in the Vim text editor.
+- **`clear`**: Clears the terminal screen for better visibility.
+- **`history`**: Displays the command history in the terminal.
+
+## Conclusion
+
+These commands form the foundation of using Git and navigating the command line. Understanding these commands is essential for effective version control and project management in software development.
